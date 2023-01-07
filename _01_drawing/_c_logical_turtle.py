@@ -13,19 +13,21 @@ def screen_clicked(x, y):
     print('You pressed: x=' + str(x) + ', y=' + str(y))
     
     # 6. Call the turtle .penup() method
-    olga.pen()
+    olga.penup()
     # 7. Move the turtle to a new location using .goto(x, y)
-    olga.goto(x,y)
+    olga.goto(100,200)
 
 def turtle_clicked(x, y):
     print('turtle clicked!')
     
     # 8. Make a for loop to run the next instructions 3 times
-    for spin in range (3)
+    for spin in range (3):
         olga.right(360)
         # 9. Make the turtle spin 360 degrees using the .right() method
-        
+
         # 10. Use the .color() method and getRandomColor() function to change
+        olga.color(get_random_color())
+
         # the color of the turtle,
         # myTurtle.color(get_random_color())
 
